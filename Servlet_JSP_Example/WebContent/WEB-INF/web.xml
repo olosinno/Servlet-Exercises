@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+
+<!-- Comment out all web-app servlet elements if using JSP -->
+
+	<servlet>
+		<servlet-name>Name</servlet-name>
+		<servlet-class>com.collabera.MyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Name</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+
+	<context-param>
+		<param-name>submit</param-name>
+		<param-value>Boy</param-value>
+	</context-param>
+
+</web-app>

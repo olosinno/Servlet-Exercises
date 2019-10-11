@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Spooky Skeleton October!</title>
+</head>
+<body>
+
+	<!-- Form creates fields in its body
+	Sends form data as an HTTP POST request to server
+	action field specifies relative servlet URL
+	Input creates web form fields such as text boxes, dropdown menus, check boxes, radio buttons, and submit button -->
+	<form name="name" method="post" action="home">
+    Username: <input type="text" name="username"/> <br/>
+    Password: <input type="password" name="password"/> <br/>
+    <input type="submit" value="Name" />
+	</form>
+
+<!-- JSP form which sends a GET request
+	<form action="add.jsp" method="get">
+		Enter 1st number : <input type="text" name="num1"><br>
+		Enter 2nd number : <input type="text" name="num2"><br>
+		<input type="submit">
+	</form>
+	 -->
+</body>
+</html>
